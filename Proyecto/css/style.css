@@ -21,3 +21,28 @@
 #ccbtnc{
     padding: 5%;
 }
+
+/* #indexcarousel{
+    height: 20%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+#indexcardcont{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 0;
+    margin-right: 0;
+    display: inline;
+    flex-direction: row;
+    font-family: fuente1;
+    font-size: 30;
+    text-align: center;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(fonts/Uneasytimes_simple-Regular.ttf);
+}
