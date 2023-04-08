@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Producto</title>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="40px" height="40px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="offcanvas" data-bs-target="#catoffcanv" aria-controls="offcanvasWithBothOptions">Categorias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="us.html">Nosotros</a>
+              </li>
+            </ul>
+            
+            <form class="d-flex " role="search">
+              <input class="form-control me-2" data-bs-toggle="collapse" data-bs-target="#collapsesbar" aria-expanded="false" aria-controls="collapsesbar" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+            <ul class="d-flex mb-0 mt-2 mx-auto me-0">
+            <li style="list-style: none;" class="nav-item" id="btnlgn"><a  href="login.html"><button class="btn btn-outline-primary text-decoration-none" type="submit">Login</button></a></li>
+            <li style="list-style: none;" class="nav-item" ><button id="btncaco" type="button" class="btn position-center" data-bs-toggle="offcanvas" data-bs-target="#caroffcanv" aria-controls="offcanvasRightWithBothOptions"> <img src="img/car.png" alt="" width="30px" height="30px">
+                <span class="position-center translate-middle badge rounded-pill bg-danger">
+                3
+                <span class="visually-hidden">Productos en Carro</span>
+                </span>
+                </button>
+            </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+</header>
+<body style="overflow-x: hidden;">
+    <img id="bgnlgn" src="img/bkgnprod.webp" alt="">
+    
+    <div class="row" style="padding: 1%; margin-top: 2%;">
+        <div class="d-flex col-lg-4 justify-content-center" style="height: 100%;">
+            <img src="img/cover2.jpg" alt="No Imagen" width="300rem" height="500rem">
+        </div>
+        <div class="col-lg-7" style="color: white; height: 100%; padding: 4%; background: rgba(51, 51, 51, 0.8);">
+            <div>
+                <h6>SKU 558880011</h6>
+                <br>
+                <h5>Gege Akutami</h5>
+                <h2 style="font-family: fuente1;">Jujutsu Kaisen Vol.11</h2>
+            </div>
+            <div class="col-lg-9"><h6>Demografia: <a href="shonen.html" style="color: rgb(99, 218, 214);">Shonen</a></h6></div>
+            <br>
+            <div class="col-lg-9">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis voluptate nobis ut itaque, libero hic corrupti, in obcaecati similique cupiditate vel eligendi? Itaque consequuntur dolorem maiores quo inventore quam, repellendus, culpa minima nostrum aliquam beatae totam doloribus non odio reiciendis autem necessitatibus, et a harum sequi hic. Tempore, facere et!</p>
+            </div>
+            <br>
+            <div class="d-flex col-lg justify-content-center"><h2>Precio: $9000</h2></div>
+            <br>
+            <div class="d-flex col-lg justify-content-center">
+                <button class="btn btn-outline-primary" style="color: white;" type="button" data-bs-target="#prodagresatsmodal" data-bs-toggle="modal"><h4>Agregar al Carro</h4></button></div>
+        </div>
+        <div class="col-lg-1"><br></div>
+    </div>
+    <br>
+    <br>
+    <div class="d-flex row justify-content-center" style="margin-left: 10%; padding: 1%; width: 80%; background: rgba(51, 51, 51, 0.8); color: white; border: solid black;">
+        <div class="d-flex col-lg justify-content-center"><h5>Tambien te puede interesar</h5></div>
+        <div class="container row row-cols-2 justify-content-center">
+            <div class="card" style="background-color: rgba(51, 51, 51, 0.2); color: white; width: 11rem; margin-left: 2rem; margin-top: 1rem;">
+                <img src="img/cover1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Blue Period vol.01</p>
+                </div>
+            </div>
+            <div class="card" style="background-color: rgba(51, 51, 51, 0.2); color: white; width: 11rem; margin-left: 2rem; margin-top: 1rem;">
+                <img src="img/cover3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Gege</p>
+                </div>
+            </div>
+            <a href="productpage2.html" style="width: 11rem; margin-left: 2rem; margin-top: 1rem; text-decoration: none;">
+                <div class="card"style="background-color: rgba(51, 51, 51, 0.2); color: white;">
+                  <img src="img/cover4.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text" style="text-align: center;">Jujutsu Kaisen vol.22</p>
+                  </div>
+                </div>
+              </a>
+            <div class="card" style="background-color: rgba(51, 51, 51, 0.2); color: white; width: 11rem; margin-left: 2rem; margin-top: 1rem;">
+                <img src="img/cover4.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Jujutsu Kaisen vol.22</p>
+                </div>
+            </div>
+        </div>
+        <div class="container"><br> <br></div>
+    </div>
+
+    <div class="modal fade" id="prodagresatsmodal" aria-hidden="true" aria-labelledby="prodagresats" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="prodagresatsmodal">Producto Agregado</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Producto ha sido agregado satisfactoriamente al Carro de Compras.
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-outline-primary" data-bs-dismiss="modal">Entendido</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div id="leftcanv">
+        <div class="offcanvas offcanvas-start" class="navbar bg-dark" data-bs-theme="dark" data-bs-scroll="true" tabindex="-1" id="catoffcanv" aria-labelledby="offcanvasWBOL">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWBOL">Categorias</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="card" style="width: 100%;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="row justify-content-center">
+                    <div class="align-items-center">
+                        <a href="shonen.html" style="color: rgb(66, 153, 159); text-decoration: none;"><h6>Shonen</h6></a>
+                    </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="row justify-content-center">
+                    <div class="align-items-center">
+                        <h6>Seinen</h6>
+                    </div>
+                </div>
+              </li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="rightcanv">
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="caroffcanv" aria-labelledby="offcanvasRightWBOL">
+            <div class="offcanvas-header" style="border: solid rgba(34, 34, 34, 0.637); background-color: rgb(44, 44, 44); color: white">
+                <h5 class="offcanvas-title" id="offcanvasRightWBOL">Carro de Compra</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div id="carcanvbody" class="offcanvas-body" style="background-color: rgba(255, 250, 247, 0.945);">
+                <div class="card" style="width: 100%;">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <div class="row justify-content-center">
+                            <div class="col-3">
+                                <img src="img/cover2.jpg" alt="" style="width: 3rem; height: 5rem;">
+                            </div>
+                            <div class="col-9 align-items-center">
+                                <h6>SKU 558880011</h6>
+                                <h5>Jujutsu Kaisen vol.11</h5>
+                                <div class="d-flex align-items-center">
+                                  <h6 style="margin-top: 0.25rem;">Cantidad: </h6>
+                                  <input type="number" class="form-control" value="1" style="width: 3rem; margin-left: 1rem;">
+                                </div>
+                            </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item">
+                        <div class="row justify-content-center">
+                            <div class="col-3">
+                                <img src="img/cover4.webp" alt="" style="width: 3rem; height: 5rem;">
+                            </div>
+                            <div class="col-9 align-items-center">
+                                <h6>SKU 558880022</h6>
+                                <h5>Jujutsu Kaisen vol.22</h5>
+                                <div class="d-flex align-items-center">
+                                  <h6 style="margin-top: 0.25rem;">Cantidad: </h6>
+                                  <input type="number" class="form-control" value="1" style="width: 3rem; margin-left: 1rem;">
+                                </div>
+                            </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item">
+                        <div class="row justify-content-center">
+                            <div class="col-3">
+                                <img src="img/cover1.webp" alt="" style="width: 3rem; height: 5rem;">
+                            </div>
+                            <div class="col-9 align-items-center">
+                                <h6>SKU 283800001</h6>
+                                <h5>Blue Period Vol.01</h5>
+                                <div class="d-flex align-items-center">
+                                  <h6 style="margin-top: 0.25rem;">Cantidad: </h6>
+                                  <input type="number" class="form-control" value="1" style="width: 3rem; margin-left: 1rem;">
+                                </div>
+                            </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+            <div class="row" style="padding: 3%;">
+                <div class="col-3">Total:</div>
+                <div class="col-6"><br></div>
+                <div class="col-3"><h6>$27.000</h6></div>    
+            </div>
+            <div id="ccbtnc" class="container" style="border: solid rgba(92, 92, 92, 0.178);">
+                <button class="btn btn-light btn-outline-dark" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="margin-right: 10%;">Seguir Comprando</button>
+                <a href="login.html"><button class="btn btn-dark" type="button" >Carro de Compras</button></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+</body>
+</html>
