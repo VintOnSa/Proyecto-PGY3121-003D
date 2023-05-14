@@ -9,6 +9,29 @@
     transform: translateX(calc((100% - 100vw) / 2));
     z-index: -2;
 }
+#bgnlgnl{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+}
+
+#modals{
+    width: 11rem; 
+    margin-left: 2rem;
+    margin-top: 1rem; 
+    text-decoration: none;
+}
+
+.card{
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+}
 
 #contlgn{
     overflow: auto;
@@ -45,4 +68,13 @@
 @font-face {
     font-family: fuente1;
     src: url(fonts/Uneasytimes_simple-Regular.ttf);
+}
+
+.error{
+    color: red;
+}
+
+
+.darkclass{
+    color: white;
 }
